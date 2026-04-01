@@ -29,6 +29,7 @@ try:
         else:
             df_bf = df
         del df
+        
     df_bf = df_bf.with_columns([pl.col('VALOR PARCELA').str.replace(',','.').cast(pl.Float64)])
     df_bf.write_parquet('C:/Users/luize.santos/Documents/analise/dados_bronze/df_bf.parquet')
     gc.collect()

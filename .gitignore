@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+Bases/
+dados_bronze/
+dados_silver/
+music/
+01.amazon_sales_dataset.csv/
+03.BaseDPEvolucaoMensalCisp.csv/
+08.BPM.csv/
+08.DP.csv/
+BaseDpDicionarioDeVariaveis.xlsx/
+dp_outliers.csv/
+
